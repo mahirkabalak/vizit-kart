@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#0B1F4D</color>
+    <color name="navy_dark">#07163A</color>
+    <color name="gold">#E3B23C</color>
+    <color name="bg">#F4F6FB</color>
+
+    <style name="Theme.VizitKart" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/navy</item>
+        <item name="android:colorPrimaryDark">@color/navy_dark</item>
+        <item name="android:colorAccent">@color/navy</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kartvizit + tarama çerçevesi; 108dp tuval, güvenli alan ortadaki 66dp -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- kart -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M33,40h42a4,4 0,0 1,4 4v20a4,4 0,0 1,-4 4h-42a4,4 0,0 1,-4 -4v-20a4,4 0,0 1,4 -4z" />
+    <!-- avatar -->
+    <path android:fillColor="#0B1F4D"
+        android:pathData="M42,50m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#0B1F4D"
+        android:pathData="M34,62c1,-4 4,-6 8,-6s7,2 8,6z" />
+    <!-- satırlar -->
+    <path android:fillColor="#E3B23C" android:pathData="M54,47h18v3h-18z" />
+    <path android:fillColor="#0B1F4D" android:pathData="M54,54h15v2.5h-15z" />
+    <path android:fillColor="#0B1F4D" android:pathData="M54,60h11v2.5h-11z" />
+    <!-- tarama köşeleri -->
+    <path android:fillColor="#E3B23C"
+        android:pathData="M25,30h9v3h-6v6h-3zM83,30h-9v3h6v6h3zM25,78h9v-3h-6v-6h-3zM83,78h-9v-3h6v-6h3z" />
+</vector>
